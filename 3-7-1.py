@@ -6,7 +6,7 @@ import time
 
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
+print('hi')
 class NcafeWriteAtt:
     #초기화 실행(Webdriver 설정)
     def __init__(self):
